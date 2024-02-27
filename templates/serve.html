@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List of Videos</title>
+</head>
+<body>
+	<h1>List of Videos</h1>
+	<ul>
+	{% for file in file_names %}
+		<li><a href="{{ url_for('download', filename=file) }}">{{ file }}</a></li>
+	{% endfor %}
+	</ul>
+</body>
+</html>
