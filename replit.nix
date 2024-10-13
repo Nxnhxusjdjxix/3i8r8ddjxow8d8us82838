@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.gdb
     pkgs.rustc
     pkgs.pkg-config
     pkgs.openssl

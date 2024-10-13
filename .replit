@@ -110,3 +110,7 @@ run = ["sh", "-c", "python3 main.py"]
 [auth]
 pageEnabled = false
 buttonEnabled = true
+
+[[ports]]
+localPort = 8080
+externalPort = 80
